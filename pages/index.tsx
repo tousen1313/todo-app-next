@@ -65,7 +65,9 @@ const Auth: NextPage = () => {
           <span className="absolute inset-y-0 left-0 flex items-center pl-3">
             <BadgeCheckIcon className="h-5 w-5" />
           </span>
-          {isLogin ? 'Login' : 'Register'}
+          {/* 攻撃対策でコメントアウト */}
+          {/* {isLogin ? 'Login' : 'Register'} */}
+          Login
         </button>
       </form>
     </Layout>
