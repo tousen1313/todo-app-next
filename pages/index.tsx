@@ -50,14 +50,14 @@ const Auth: NextPage = () => {
             }}
           />
         </div>
-        <div className="my-6 flex items-center justify-center text-sm">
+        {/* <div className="my-6 flex items-center justify-center text-sm">
           <span
             onClick={() => setIsLogin(!isLogin)}
             className="cursor-pointer font-medium hover:text-indigo-500"
           >
             change mode ?
           </span>
-        </div>
+        </div> */}
         <button
           type="submit"
           className="group relative flex w-full justify-center rounded-md bg-indigo-600 py-2 px-4 text-sm font-medium text-white hover:bg-indigo-700"
